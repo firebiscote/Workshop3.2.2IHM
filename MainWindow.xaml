@@ -1,0 +1,16 @@
+﻿<Window x:Class="Workshop3._2._2IHM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Workshop3._2._2IHM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid Margin="10">
+        <TextBox Name="TextBox" AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Language="fr-FR" Margin="10,10,9.6,114.4"/>
+        <Button Name="btn" Background="LightBlue" BorderBrush="Black" BorderThickness="1" Click="OnClick" ClickMode="Press" Margin="80,58,81.6,61.4">
+            Convert
+        </Button>
+        <Label Name="Label" Content="This is a Label control." HorizontalAlignment="Center" Margin="10,107,9.6,10.4" />
+    </Grid>
+</Window>
