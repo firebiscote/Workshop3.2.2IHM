@@ -18,9 +18,9 @@ namespace Workshop3._2._2IHM
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class UserRegistrationView : Window
     {
-        public MainWindow()
+        public UserRegistrationView()
         {
             InitializeComponent();
         }
