@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using System.Collections.ObjectModel;
 
 namespace Workshop3._2._2IHM
@@ -11,10 +10,7 @@ namespace Workshop3._2._2IHM
         private ICommand submitCommand;
         public Data Data
         {
-            get
-            {
-                return data;
-            }
+            get => data;
             set
             {
                 data = value;
@@ -23,10 +19,7 @@ namespace Workshop3._2._2IHM
         }
         public ObservableCollection<Data> Datas
         {
-            get
-            {
-                return datas;
-            }
+            get => datas;
             set
             {
                 datas = value;
